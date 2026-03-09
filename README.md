@@ -94,4 +94,29 @@ This project demonstrates how threshold tuning significantly improves model effe
 - Deploy model using Flask/Streamlit
 - Cost-sensitive learning
 
+## Marketing Campaign Targeting Simulation
+To evaluate the real-world impact of the model, a campaign targeting simulation was conducted.
+
+Instead of contacting every customer, the model was used to rank customers by their predicted probability of subscribing to a term deposit. The bank can then focus its outreach on customers with the highest predicted likelihood of conversion.
+
+### Baseline Strategy
+If the bank contacts all customers:
+- Conversion rate: 27.4%
+
+### Model-Based Targeting Strategy
+If the bank contacts only the top 30% of customers ranked by predicted probability:
+- Conversion rate: 27.4%
+
+### Business Impact
+This represents a 2.3x improvement in campaign efficiency.
+
+In practical terms:
+- Without the model: contacting 1000 customers results in approximately 117 subscriptions.
+- With model-based targeting: contacting 300 high-probability customers results in approximately 82 subscriptions.
+
+This means the bank can achieve nearly the same number of conversions while making 70% fewer calls, significantly reducing campaign costs and improving marketing efficiency.
+
+## Key Insight:
+Machine learning can help financial institutions prioritize high-value customers, enabling more efficient marketing campaigns and better allocation of call center resources.
+
 
